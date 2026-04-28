@@ -1,0 +1,70 @@
+#############################################
+# Secrets & Local Configuration
+#############################################
+local.properties
+keystore.properties
+*.jks
+*.keystore
+google-services.json
+gradle.properties
+
+#############################################
+# Android Studio / IntelliJ
+#############################################
+.idea/
+*.iml
+*.iws
+*.ipr
+/captures/
+
+#############################################
+# Gradle & Build System
+#############################################
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+#############################################
+# Generated / Build Outputs
+#############################################
+.externalNativeBuild/
+.cxx/
+outputs/
+*.apk
+*.aab
+output-metadata.json
+
+#############################################
+# Logs & Temporary Files
+#############################################
+*.log
+*.tmp
+*.swp
+*.bak
+*.hprof
+
+#############################################
+# Java / Kotlin
+#############################################
+*.class
+out/
+
+#############################################
+# 🔧 NDK
+#############################################
+obj/
+
+#############################################
+# OS Generated Files
+#############################################
+.DS_Store
+Thumbs.db
+
+#############################################
+# Misc / Project-Specific Files
+#############################################
+Screenshot.docx
+imp_details.txt
+*.orig
+*.rej
